@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: pink;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: pink;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: pink;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: pink;
+  width: 80%;
+  padding: 10px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 6px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: pink;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>MAYSYA OKTAVIA PRATIWI</h1>
+  <p>selalu riang, asik, lucuu.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+ 
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>CATATAN SI MAY</h2>
+      <h5>BIRTHDAY, OKTOBER 31, 2007</h5>
+      <div class="fakeimg" style="height:300px; width: 350px;"><Img src="c:\Users\Lenovo\Pictures\Saved Pictures\gambar mysya.jpeg" width="100%" height="100%" ></div>
+      <p>YOOWWW GUYSS THIS IS ME</p>
+      <p>Aku seorang anak tunggal yang hidup di keluarga sederhana,hidup bersama dengan mamah papah yang ke2nya bekerja,aku dilahirkan menjadi anak yang mandiri,riang dan gemar mendengarkan musik</p>
+    </div>
+    <div class="card">
+      <h2>PENDIDIKAN</h2>
+      <h5>angkatan 22</h5>
+      <div class="fakeimg" style="height:200px;  width: 200px;"><Img src="c:\Users\Lenovo\Pictures\Saved Pictures\fto.jpeg" width="100%" height="100%" ></div>
+      <p>SCHOOL</p>
+      <p>May saat ini sedang menempuh pendidikan di SMKN 2 SUBANG, dan mengambil jurusan rekayasa perangkat lunak saat ini may sedang menduduki bangku kelas 2 yang mana sebentar lagi akan menghadapi pkl</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>tentang aku</h2>
+      <div class="fakeimg" style= "height: 200px; width: 150px; "> <img src="c:\Users\Lenovo\Pictures\Saved Pictures\ftomay.jpeg" width="100%" height="100%"></div>
+      <p>ini aku waktu pengumuman menjadi wakil bulu/wakil ketua paskibra angkatan 22</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg" style= "height:150px; widht: 50px; "> <img src="c:\Users\Lenovo\Pictures\Saved Pictures\pasmay.jpeg" width="80%" height="80%"></div>
+      <div class="fakeimg"  style= "height:50 px; widht: 50px; "> <img src="c:\Users\Lenovo\Pictures\Saved Pictures\fto.maykrp.jpeg"  width="70%" height="70%"></div>
+      <div class="fakeimg" style="height: 200px;"
+          div class="card ">
+         <h3>Follow Me</h3>
+         <p>JIKA KAMU TERTARIK SAMA DIRIKU</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>BYEEE SEE YOU AGAIN!!</h2>
+</div>
+
+</body>
+</html>
